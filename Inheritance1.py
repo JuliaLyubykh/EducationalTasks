@@ -1,13 +1,13 @@
 class Animal:
     def move(self):
-        print('Я животное гордое, двигаюсь, как хочу')
+        print('Я животное гордое')
 
     def say_about(self):
         print('Я животное гордое')
 
 class Cat(Animal):
     def move(self):
-        print('Я животное вольное, двигаюсь, куда хочу')
+        print('Я животное вольное')
 
     def talk(self):
         print('Мяу-Мяу')
